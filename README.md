@@ -3,7 +3,7 @@
 This project builds an end-to-end MLOps pipeline for a simple Linear Regression model using the California Housing dataset. It includes training, testing, quantization, Dockerization, and CI/CD using GitHub Actions.
 
 ## 📁 Folder Structure
-
+```
 ├── src/
 │ ├── train.py # Model training and saving
 │ ├── quantize.py # Manual quantization of model weights
@@ -14,14 +14,15 @@ This project builds an end-to-end MLOps pipeline for a simple Linear Regression 
 ├── tests/
 │ └── test_train.py # Unit tests for model training
 │
-├── .github/workflows/
+├── .github/
+│ └── workflows/
 │ └── ci.yml # GitHub Actions CI/CD pipeline
 │
 ├── Dockerfile
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 
 ## Pipeline Steps
 
