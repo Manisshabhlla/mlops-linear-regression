@@ -55,6 +55,7 @@ This project builds an end-to-end MLOps pipeline for a simple Linear Regression 
       
 4. Ci/CI Pipeline Github Actions
     The GitHub Actions workflow (ci.yml) performs the following on every push to main:
+   
        - test-suite ✅
        - train-and-quantize ✅
        - docker-check ✅
@@ -71,7 +72,7 @@ This project builds an end-to-end MLOps pipeline for a simple Linear Regression 
 | Dockerization      | Docker             | Docker container runs `predict.py`        |
 | CI/CD              | GitHub Actions     | `.github/workflows/ci.yml`          |
 
-🧑‍💻 **Author
-Name: Manisha Bhalla
-Roll No: G24AI1073
-Email: G24AI1073@iitj.ac.in**
+## 🧑‍💻 Author
+**Name**: Manisha Bhalla
+**Roll No**: G24AI1073
+**Email**: G24AI1073@iitj.ac.in
