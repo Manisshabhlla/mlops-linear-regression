@@ -34,7 +34,7 @@ This project builds an end-to-end MLOps pipeline for a simple Linear Regression 
 
 ## Commands used:
 
-1.** Set Up Virtual Environment**
+1.**Set Up Virtual Environment**
     - python -m venv venv
     - .\venv\Scripts\Activate.ps1 
     - pip install -r requirements.txt
@@ -52,11 +52,11 @@ This project builds an end-to-end MLOps pipeline for a simple Linear Regression 
     - docker run --rm my-predict-app
 4. **Ci/CI Pipeline Github Actions**
     The GitHub Actions workflow (ci.yml) performs the following on every push to main:
-   ```
+   
         - ✅ test-suite
         - ✅ train-and-quantize
         - ✅ docker-check
-```
+
 ## Comparison Table
 
 | Step               | Method Used        | Output Artifact        |
